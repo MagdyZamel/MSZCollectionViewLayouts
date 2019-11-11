@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Drogon</string>
+		<key>title</key>
+		<string>The strongest Dragon </string>
+		<key>description</key>
+		<string>if you need me, just say Dracarys. I am one of the three dragons born in the wastelands. I was named after Daenerys&apos;s late husband Khal Drogo.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Rhaegal</string>
+		<key>title</key>
+		<string>The meanest Dragon</string>
+		<key>description</key>
+		<string>I was named after  Daenerys&apos; eldest brother. I am one of the three dragons born in the wastelands. I died at the hands of  Euron Greyjoy.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Viserion</string>
+		<key>title</key>
+		<string>The ice Dragon</string>
+		<key>description</key>
+		<string>I was named after Daenerys Targaryen&apos;s elder brother, Viserys. I am one of the three dragons born in the wastelands. I was enslaved by the night king</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Rita</string>
+		<key>title</key>
+		<string>Playful dog</string>
+		<key>description</key>
+		<string>A dog that likes to play all day long and never sleeps. Always bothing it&apos;s owner Magdy.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>El-Gordo</string>
+		<key>title</key>
+		<string>The fat dog</string>
+		<key>description</key>
+		<string>The dog which eats a lot thus is fat. If you want me to love you, you have to feed me. Also, Gordo means Fat in spanish!</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kijo</string>
+		<key>title</key>
+		<string>Wicked witch of the west</string>
+		<key>description</key>
+		<string>The dog with all the powers. It is the ruler of the Winkie Country. It is seriously aquaphobic. WATCH OUT!! </string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Grumpy</string>
+		<key>title</key>
+		<string>Why are you bothering me?</string>
+		<key>description</key>
+		<string>I am not a dog, I am a Reindeer. I sometimes feel that i was wronfully born and this is why I am always Grumpy. Please don&apos;t try to bother me!</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Simba</string>
+		<key>title</key>
+		<string>Ruler of the Pride Lands</string>
+		<key>description</key>
+		<string>The dog with the warmest heart. Its best friends are Timon and Pumba. It fell inlove with Nala since they were both cubs.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Olaf</string>
+		<key>title</key>
+		<string>Warmly frozen</string>
+		<key>description</key>
+		<string>Some people are worth melting for. I was created by Elsa and Anna and so I will always be thankful for them. They&apos;ll always be worth melting for!</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Latte</string>
+		<key>title</key>
+		<string>Extra cream</string>
+		<key>description</key>
+		<string>With a dash of sugar</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pumba</string>
+		<key>title</key>
+		<string>Hakuna Mattata</string>
+		<key>description</key>
+		<string>What a wonderful phrase. It means no worries. For the rest of your days. It&apos;s our problem-free philosophy.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mud</string>
+		<key>title</key>
+		<string>Smily all the timey</string>
+		<key>description</key>
+		<string>I like to play in the mud. Just leave me in the garden all day and I will be happy!</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Wrinkles</string>
+		<key>title</key>
+		<string>The old dog</string>
+		<key>description</key>
+		<string>I need a facial. All the wrinkles in my face are not because of my old age only. It&apos;s also because I have always been exhausted for so long.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>El-Profesor</string>
+		<key>title</key>
+		<string>Evil Genius</string>
+		<key>description</key>
+		<string>I like to plan heists. In season one and two, I robbed the Royal Mint of Spain. In seaosn three, I robbed the Bank of Spain.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Timon</string>
+		<key>title</key>
+		<string>Hakuna Mattata</string>
+		<key>description</key>
+		<string>What a wonderful phrase. It means no worries. For the rest of your days. It&apos;s our problem-free philosophy.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hungry</string>
+		<key>title</key>
+		<string>Always Hungry</string>
+		<key>description</key>
+		<string>I want a cookie or a piece of cake or a burger or PIZZA. Any food makes me happy.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Frozen</string>
+		<key>title</key>
+		<string>Winter is coming</string>
+		<key>description</key>
+		<string>Ice Ice baby!</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bolt</string>
+		<key>title</key>
+		<string>Super dog</string>
+		<key>description</key>
+		<string>I&apos;ve got superpowers! I have super-strength, super-speed, heat vision, and a legendary &quot;superbark&quot;.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Spikes</string>
+		<key>title</key>
+		<string>Messy Dog</string>
+		<key>description</key>
+		<string>You can never outrun spikes. </string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Zack-and-Cody</string>
+		<key>title</key>
+		<string>Identical twins</string>
+		<key>description</key>
+		<string>Always causing shenanigans</string>
+	</dict>
+</array>
+</plist>

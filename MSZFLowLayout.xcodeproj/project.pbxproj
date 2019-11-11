@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		2A8366BA23746F0900C06E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8366B923746F0900C06E40 /* AppDelegate.swift */; };
 		2A8366BC23746F0900C06E40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8366BB23746F0900C06E40 /* SceneDelegate.swift */; };
-		2A8366BE23746F0900C06E40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8366BD23746F0900C06E40 /* ContentView.swift */; };
 		2A8366C023746F0B00C06E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8366BF23746F0B00C06E40 /* Assets.xcassets */; };
-		2A8366C323746F0B00C06E40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8366C223746F0B00C06E40 /* Preview Assets.xcassets */; };
 		2A8366C623746F0B00C06E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8366C423746F0B00C06E40 /* LaunchScreen.storyboard */; };
+		2A83673E2377870500C06E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8367362377870400C06E40 /* Main.storyboard */; };
+		2A83673F2377870500C06E40 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8367382377870400C06E40 /* CustomFlowLayout.swift */; };
+		2A8367402377870500C06E40 /* PuppiesData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A8367392377870400C06E40 /* PuppiesData.plist */; };
+		2A8367422377870500C06E40 /* PuppyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83673D2377870500C06E40 /* PuppyModel.swift */; };
+		2A83674A2377872F00C06E40 /* PuppyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8367452377872F00C06E40 /* PuppyCell.xib */; };
+		2A83674B2377872F00C06E40 /* PuppyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8367462377872F00C06E40 /* PuppyCell.swift */; };
+		2A83674C2377872F00C06E40 /* PuppiesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8367472377872F00C06E40 /* PuppiesVC.xib */; };
+		2A83674D2377872F00C06E40 /* PuppiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8367482377872F00C06E40 /* PuppiesVC.swift */; };
+		2A83674E2377872F00C06E40 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8367492377872F00C06E40 /* GradientView.swift */; };
+		2A8367532377882500C06E40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8367522377882500C06E40 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A8366B623746F0900C06E40 /* MSZFLowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSZFLowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8366B923746F0900C06E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A8366BB23746F0900C06E40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A8366BD23746F0900C06E40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A8366BF23746F0B00C06E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2A8366C223746F0B00C06E40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A8366C523746F0B00C06E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A8366C723746F0B00C06E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8367362377870400C06E40 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2A8367382377870400C06E40 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		2A8367392377870400C06E40 /* PuppiesData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PuppiesData.plist; sourceTree = "<group>"; };
+		2A83673D2377870500C06E40 /* PuppyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuppyModel.swift; sourceTree = "<group>"; };
+		2A8367452377872F00C06E40 /* PuppyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PuppyCell.xib; sourceTree = "<group>"; };
+		2A8367462377872F00C06E40 /* PuppyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuppyCell.swift; sourceTree = "<group>"; };
+		2A8367472377872F00C06E40 /* PuppiesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PuppiesVC.xib; sourceTree = "<group>"; };
+		2A8367482377872F00C06E40 /* PuppiesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuppiesVC.swift; sourceTree = "<group>"; };
+		2A8367492377872F00C06E40 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		2A8367522377882500C06E40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,23 +72,63 @@
 		2A8366B823746F0900C06E40 /* MSZFLowLayout */ = {
 			isa = PBXGroup;
 			children = (
+				2A8367432377872F00C06E40 /* Views */,
+				2A83673C2377870500C06E40 /* Domain */,
+				2A8367372377870400C06E40 /* Layouts */,
+				2A8367362377870400C06E40 /* Main.storyboard */,
 				2A8366B923746F0900C06E40 /* AppDelegate.swift */,
 				2A8366BB23746F0900C06E40 /* SceneDelegate.swift */,
-				2A8366BD23746F0900C06E40 /* ContentView.swift */,
 				2A8366BF23746F0B00C06E40 /* Assets.xcassets */,
 				2A8366C423746F0B00C06E40 /* LaunchScreen.storyboard */,
 				2A8366C723746F0B00C06E40 /* Info.plist */,
-				2A8366C123746F0B00C06E40 /* Preview Content */,
+				2A8366C123746F0B00C06E40 /* Preview */,
 			);
 			path = MSZFLowLayout;
 			sourceTree = "<group>";
 		};
-		2A8366C123746F0B00C06E40 /* Preview Content */ = {
+		2A8366C123746F0B00C06E40 /* Preview */ = {
 			isa = PBXGroup;
 			children = (
-				2A8366C223746F0B00C06E40 /* Preview Assets.xcassets */,
+				2A8367522377882500C06E40 /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		2A8367372377870400C06E40 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				2A8367382377870400C06E40 /* CustomFlowLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		2A83673C2377870500C06E40 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2A8367392377870400C06E40 /* PuppiesData.plist */,
+				2A83673D2377870500C06E40 /* PuppyModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2A8367432377872F00C06E40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A8367442377872F00C06E40 /* Cells */,
+				2A8367472377872F00C06E40 /* PuppiesVC.xib */,
+				2A8367482377872F00C06E40 /* PuppiesVC.swift */,
+				2A8367492377872F00C06E40 /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A8367442377872F00C06E40 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2A8367452377872F00C06E40 /* PuppyCell.xib */,
+				2A8367462377872F00C06E40 /* PuppyCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +190,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A8366C623746F0B00C06E40 /* LaunchScreen.storyboard in Resources */,
-				2A8366C323746F0B00C06E40 /* Preview Assets.xcassets in Resources */,
 				2A8366C023746F0B00C06E40 /* Assets.xcassets in Resources */,
+				2A8367402377870500C06E40 /* PuppiesData.plist in Resources */,
+				2A8367532377882500C06E40 /* Preview Assets.xcassets in Resources */,
+				2A83674C2377872F00C06E40 /* PuppiesVC.xib in Resources */,
+				2A83674A2377872F00C06E40 /* PuppyCell.xib in Resources */,
+				2A83673E2377870500C06E40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +206,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A83674B2377872F00C06E40 /* PuppyCell.swift in Sources */,
 				2A8366BA23746F0900C06E40 /* AppDelegate.swift in Sources */,
 				2A8366BC23746F0900C06E40 /* SceneDelegate.swift in Sources */,
-				2A8366BE23746F0900C06E40 /* ContentView.swift in Sources */,
+				2A83673F2377870500C06E40 /* CustomFlowLayout.swift in Sources */,
+				2A83674D2377872F00C06E40 /* PuppiesVC.swift in Sources */,
+				2A83674E2377872F00C06E40 /* GradientView.swift in Sources */,
+				2A8367422377870500C06E40 /* PuppyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MSZFLowLayout/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = MSZFLowLayout/Preview;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MSZFLowLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MSZFLowLayout/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = MSZFLowLayout/Preview;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MSZFLowLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
