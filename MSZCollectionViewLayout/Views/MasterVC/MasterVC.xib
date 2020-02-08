@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MasterVC" customModule="MSZFLowLayout" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="PX2-Ly-TFr">
+                    <rect key="frame" x="184" y="380" width="46" height="136"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kzf-Fx-Trd">
+                            <rect key="frame" x="0.0" y="0.0" width="46" height="0.0"/>
+                            <state key="normal" title="Random Item Size Using Deleagte"/>
+                            <connections>
+                                <action selector="customRandomSizeFlowLayoutTapped" destination="-1" eventType="touchUpInside" id="omO-ol-gkg"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFM-uZ-e7R">
+                            <rect key="frame" x="0.0" y="34" width="46" height="0.0"/>
+                            <state key="normal" title="Custom Horizontal Flow Layout"/>
+                            <connections>
+                                <action selector="customHorizontalFlowLayoutTapped" destination="-1" eventType="touchUpInside" id="O09-sy-oqB"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wh9-y9-3m3">
+                            <rect key="frame" x="0.0" y="68" width="46" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Custom Vertical Flow Layout"/>
+                            <connections>
+                                <action selector="customVerticalFlowLayoutTapped" destination="-1" eventType="touchUpInside" id="cck-au-ltZ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="k82-rc-cWi">
+                            <rect key="frame" x="0.0" y="102" width="46" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Dynamic Gallery Layout"/>
+                            <connections>
+                                <action selector="dynamicGalleryLayoutTapped" destination="-1" eventType="touchUpInside" id="Wse-pk-CdD"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tz6-B2-bCO">
+                            <rect key="frame" x="0.0" y="136" width="46" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Transition between Layouts"/>
+                            <connections>
+                                <action selector="transitionBettweenLayoutsTapped" destination="-1" eventType="touchUpInside" id="wEZ-yX-Rse"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PX2-Ly-TFr" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="3bA-pS-fck"/>
+                <constraint firstItem="PX2-Ly-TFr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="GMx-wT-Cn7"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </view>
+    </objects>
+</document>

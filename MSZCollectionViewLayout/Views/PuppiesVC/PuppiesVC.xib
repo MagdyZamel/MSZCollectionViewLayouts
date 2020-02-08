@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PuppiesVC" customModule="MSZFLowLayout" customModuleProvider="target">
+            <connections>
+                <outlet property="bar" destination="TuS-Ca-Flk" id="xCt-VA-kSD"/>
+                <outlet property="puppiesCollectionView" destination="rCM-n4-9Yn" id="l74-XW-ewG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rWm-KN-Ou8">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                    <subviews>
+                        <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TuS-Ca-Flk">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azW-dj-4Bq">
+                                    <rect key="frame" x="0.0" y="0.0" width="138" height="44"/>
+                                    <state key="normal" title="H-Layout"/>
+                                    <connections>
+                                        <action selector="horizontalflowLayoutButtonAction:" destination="-1" eventType="touchUpInside" id="esN-fj-QVp"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iye-Iz-jqU">
+                                    <rect key="frame" x="138" y="0.0" width="138" height="44"/>
+                                    <state key="normal" title="V-Layout"/>
+                                    <connections>
+                                        <action selector="verticalFlowLayoutButtonAction:" destination="-1" eventType="touchUpInside" id="gb6-Rn-TO9"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tl8-2F-Rya">
+                                    <rect key="frame" x="276" y="0.0" width="138" height="44"/>
+                                    <state key="normal" title="Gallary"/>
+                                    <connections>
+                                        <action selector="dynamicGalleryLayoutButtonAction:" destination="-1" eventType="touchUpInside" id="H9A-hE-fUx"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Tl8-2F-Rya" firstAttribute="width" secondItem="azW-dj-4Bq" secondAttribute="width" id="Ctz-wW-5U9"/>
+                                <constraint firstItem="iye-Iz-jqU" firstAttribute="width" secondItem="azW-dj-4Bq" secondAttribute="width" id="VCI-Rh-xvU"/>
+                                <constraint firstAttribute="height" constant="44" id="a3u-Kd-zI6"/>
+                            </constraints>
+                        </stackView>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="rCM-n4-9Yn">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                            <color key="backgroundColor" red="0.86666666670000003" green="0.84705882349999995" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iQ0-dk-llD">
+                                <size key="itemSize" width="200" height="300"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="vlA-iS-QeV"/>
+                                <outlet property="delegate" destination="-1" id="9U8-22-I69"/>
+                            </connections>
+                        </collectionView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.90588235289999997" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="rWm-KN-Ou8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2T3-75-F9x"/>
+                <constraint firstItem="rWm-KN-Ou8" firstAttribute="top" secondItem="cjZ-tp-RwE" secondAttribute="top" id="5bB-a2-ddo"/>
+                <constraint firstAttribute="bottom" secondItem="rWm-KN-Ou8" secondAttribute="bottom" id="hye-j8-r1q"/>
+                <constraint firstAttribute="trailing" secondItem="rWm-KN-Ou8" secondAttribute="trailing" id="uYR-Cw-kRf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="cjZ-tp-RwE"/>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </view>
+    </objects>
+</document>

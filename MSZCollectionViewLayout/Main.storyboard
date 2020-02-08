@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="foW-C2-8vS">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="hXf-8q-ZIs">
+            <objects>
+                <navigationController id="foW-C2-8vS" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7B4-wP-N4j">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="MVy-Na-tSk" kind="relationship" relationship="rootViewController" id="RyO-TO-w5V"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dA5-Ih-Pbs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1372" y="-383"/>
+        </scene>
+        <!--MasterVC-->
+        <scene sceneID="Ovk-hF-EQu">
+            <objects>
+                <viewController id="MVy-Na-tSk" customClass="MasterVC" customModule="MSZFLowLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="caM-j1-yHg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T6i-g1-rdI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-500" y="-383"/>
+        </scene>
+        <!--PuppiesVC-->
+        <scene sceneID="rZj-xI-Neg">
+            <objects>
+                <viewController id="qR6-76-AAh" customClass="PuppiesVC" customModule="MSZFLowLayout" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tgH-yj-wO4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="270" y="-383"/>
+        </scene>
+    </scenes>
+</document>
