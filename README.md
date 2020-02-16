@@ -1,5 +1,5 @@
 
-# MSZCollectionViewLayout [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=MSZ%20Examples%20For%20Custom%20Layouts:&url=https%3A%2F%2Fgithub.com%2FMagdyZamel%2FMSZCollectionViewLayout%2F)
+# MSZCollectionViewLayouts [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=MSZ%20Examples%20For%20Custom%20Layouts:&url=https%3A%2F%2Fgithub.com%2FMagdyZamel%2FMSZCollectionViewLayout%2F)
 ![Xcode 11.0](https://img.shields.io/badge/Xcode-11.0-blue) 
 ![Swift 5.0](https://img.shields.io/badge/Swift-5.0-green) 
 ![iOS 13](https://img.shields.io/badge/iOS%20-13-brightgreen)
